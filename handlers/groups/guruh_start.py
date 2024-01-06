@@ -49,7 +49,7 @@ async def bot_start(message: types.Message):
                 await bot.forward_message(chat_id=guruh[0], from_chat_id=f'{guruh_link}',
                                           message_id=message.message_id)
                 await message.answer(
-                    f"XURMATLI MIJOZ {message.from_user.full_name.upper()}!. GRUPPAMIZ ORQALI  7 MARTA TAKSI ZAKAZ BERING 8 CHISI MUTLOQ BEPUL")
+                    f"XURMATLI MIJOZ {message.from_user.full_name.upper()}!. GRUPPAMIZ ORQALI  5 MARTA TAKSI ZAKAZ BERING 6 CHISI MUTLOQ BEPUL")
                 await bot.delete_message(chat_id=chat_id, message_id=message.message_id, )
             except Exception as e:
                 if 'Chat not found'!=str(e):
@@ -75,7 +75,7 @@ async def bot_start(message: types.Message):
                                            )
                                            )
                 await message.answer(
-                    f"XURMATLI MIJOZ {message.from_user.full_name.upper()}!. GRUPPAMIZ ORQALI  7 MARTA TAKSI ZAKAZ BERING 8 CHISI MUTLOQ BEPUL")
+                    f"XURMATLI MIJOZ {message.from_user.full_name.upper()}!. GRUPPAMIZ ORQALI  5 MARTA TAKSI ZAKAZ BERING 6 CHISI MUTLOQ BEPUL")
                 await bot.delete_message(chat_id=chat_id, message_id=message.message_id, )
         else:
 
